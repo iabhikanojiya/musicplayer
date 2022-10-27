@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="favicon.ico"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Music Player</title>
+        <meta name="Music Player" content="listen Hits of 2022">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="">Feel</li>
+        </ul>
+    </nav>
+
+
+    <div class="container">
+
+        <div class="songlist">
+            <h1>Best Of All Time</h1>
+            <div>
+                <div class="songItem">
+                    <img src="banner.png" alt="1">
+                    <span class='classlistplay songName'></span>
+                    <span class="classlistplay"><span class="timestamp"><i id="1" class="songItemPlay fa-solid fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="banner.png" alt="1">
+                    <span class='classlistplay songName'></span>
+                    <span class="classlistplay"><span class="timestamp"><i id="2" class="songItemPlay fa-solid fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="banner.png" alt="1">
+                    <span class='classlistplay songName'></span>
+                    <span class="classlistplay"><span class="timestamp"><i id="3" class="songItemPlay fa-solid fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="banner.png" alt="1">
+                    <span class='classlistplay songName'></span>
+                    <span class="classlistplay"><span class="timestamp"><i id="4" class="songItemPlay fa-solid fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="banner.png" alt="1">
+                    <span class='classlistplay songName'></span>
+                    <span class="classlistplay"><span class="timestamp"><i id="5" class="songItemPlay fa-solid fa-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="progressBar" value="0" min="0" max="100" >
+        <div class="icons">
+            <i class="fa-solid fa-backward" id="previous"></i>
+            <i class="fa-solid fa-play" id="masterPlay"></i>
+            <i class="fa-solid fa-forward" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="player.gif" id="gif" width="60px" alt="">
+        </div>
+    </div>
+        
+    <script src="https://kit.fontawesome.com/1aaffb871c.js" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+    </body>
+</html>-
